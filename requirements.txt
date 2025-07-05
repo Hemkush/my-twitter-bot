@@ -1,0 +1,8 @@
+# For interacting with the X (Twitter) API
+tweepy
+
+# For loading credentials from the .env file
+python-dotenv
+
+# For interacting with the Google Gemini API
+google-generativeai
