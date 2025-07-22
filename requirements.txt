@@ -6,3 +6,15 @@ python-dotenv
 
 # For interacting with the Google Gemini API
 google-generativeai
+
+# For task scheduling
+APScheduler
+
+# For cron-based scheduling (alternative option)
+python-crontab
+
+# For RSS feed parsing (used by scraper)
+feedparser
+
+# For Reddit API integration
+praw
