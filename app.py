@@ -172,6 +172,7 @@ class App(ctk.CTk):
             post_tweet(tweet)
             post_reddit(reddit_post)
             self.update_status("✅ Posted to X and Reddit successfully.")
+            self.after(5000, self.destroy)  # Close the application window after 3 seconds
 
         except Exception as e:
             self.show_error_popup("Posting Error", str(e))
